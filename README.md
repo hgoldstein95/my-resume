@@ -1,2 +1,1 @@
-# resume
-My personal resume.
+# New Resume for Harrison Goldstein
