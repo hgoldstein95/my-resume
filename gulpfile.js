@@ -1,9 +1,9 @@
-var gulp = require('gulp');
+var gulp = 					require('gulp');
 
-var sass = require('gulp-sass');
-var jade = require('gulp-jade');
-var browserSync = require('browser-sync').create();
-var plumber = require('gulp-plumber');
+var sass = 					require('gulp-sass');
+var jade = 					require('gulp-jade');
+var browserSync = 	require('browser-sync').create();
+var plumber = 			require('gulp-plumber');
 
 gulp.task('jade', function() {
 	gulp.src('jade/*.jade')

@@ -1,4 +1,4 @@
-@import url("http://fonts.googleapis.com/css?family=PT+Sans|Montserrat");
+@import url("http://fonts.googleapis.com/css?family=PT+Sans|Fira+Sans|Montserrat");
 .latex sub,
 .latex sup {
   font-family: Times;
@@ -58,10 +58,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: PT Sans; }
+  font-family: Fira Sans; }
 
 body {
-  font-family: Montserrat; }
+  font-family: Fira Sans; }
 
 .pageheader {
   font-size: 0;
@@ -102,7 +102,7 @@ body {
   .pageheader .addrs {
     height: 12.5mm;
     padding-top: 3mm;
-    color: #555555; }
+    color: #333; }
   .pageheader .mailing {
     margin-top: 10px;
     margin-left: 20px;
@@ -135,11 +135,11 @@ body {
   margin: 3px 0 0 0; }
 
 .notes p {
-  font-family: Montserrat;
+  font-family: Fira Sans;
   font-size: 3.2mm;
   font-weight: normal;
   line-height: 4.2mm;
-  color: #555555; }
+  color: #333; }
   .notes p sub {
     position: relative;
     top: .3em;
@@ -147,11 +147,11 @@ body {
     vertical-align: bottom; }
 
 .notes ul#content_list {
-  font-family: Montserrat;
+  font-family: Fira Sans;
   font-size: 3.2mm;
   font-weight: normal;
   line-height: 4.2mm;
-  color: #555555; }
+  color: #333; }
   .notes ul#content_list li:not(:last-child) {
     margin-bottom: 4px; }
 
@@ -173,7 +173,7 @@ body {
     font-size: 3.2mm;
     line-height: 4.5mm;
     margin-bottom: .0cm;
-    color: #555555; }
+    color: #333; }
   .minor > li {
     margin-left: .5mm; }
 
@@ -188,7 +188,7 @@ body {
     display: inline-block;
     height: 3.2mm;
     margin-top: 3mm;
-    color: #555555; }
+    color: #333; }
 
 .info {
   font-size: 3.2mm;
@@ -213,7 +213,7 @@ body {
   bottom: 1.4cm;
   display: inline-block;
   text-align: right;
-  color: #555555; }
+  color: #333; }
 
 @page {
   margin: 0; }
