@@ -1,28 +1,21 @@
+.latex,
 .latex sub,
 .latex sup {
-    font-family: Times;
-
-    text-transform: uppercase;
+  font-family: Times;
+  font-size: 1em;
 }
 
 .latex sub {
-    margin-right: -.125em;
-    margin-left: -.1667em;
-
-    vertical-align: -.5ex;
-}
-
-.latex,
-.latex sub {
-    font-family: Times;
-    font-size: 1em;
+  margin-right: -.125em;
+  margin-left: -.1667em;
+  vertical-align: -.5ex;
+  position: static;
 }
 
 .latex sup {
-    font-size: .85em;
-
-    margin-right: -.15em;
-    margin-left: -.36em;
-
-    vertical-align: .15em;
+  font-size: .85em;
+  margin-right: -.15em;
+  margin-left: -.36em;
+  vertical-align: .15em;
+  position: static;
 }
