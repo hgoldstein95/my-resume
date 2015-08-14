@@ -4,7 +4,7 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-@import url("http://fonts.googleapis.com/css?family=Fira+Sans");
+@import url("http://fonts.googleapis.com/css?family=Fira+Sans|PT+Sans");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -387,7 +387,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #102a96; }
+  color: #216ca3; }
 
 .page {
   font-size: 0;
@@ -409,7 +409,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Fira Sans;
+  font-family: PT Sans;
   margin: 0; }
 
 body {
@@ -430,7 +430,8 @@ body {
     font-size: 10mm;
     display: inline-block;
     height: 12.5mm;
-    color: #34384a;
+    color: #123957;
+    padding-right: 2px;
     position: relative; }
     .pageheader h1:after {
       position: absolute;
@@ -439,22 +440,19 @@ body {
       display: block;
       width: 100%;
       content: '';
-      border-bottom: 0.5mm solid #34384a; }
-    .pageheader h1 em {
-      font-style: normal;
-      color: #0f278d; }
+      border-bottom: 0.5mm solid #123957; }
     .pageheader h1:after {
       bottom: -0.25mm; }
   .pageheader h2 {
     font-size: 6mm;
-    color: #081448; }
+    color: #123c5b; }
   .pageheader h3 {
     font-size: 4mm;
-    color: #081448; }
+    color: #123c5b; }
   .pageheader .addrs {
     height: 12.5mm;
     padding-top: 3mm;
-    color: rgba(0, 0, 0, 0.8); }
+    color: rgba(0, 0, 0, 0.9); }
     .pageheader .addrs h3 {
       font-size: 13px;
       margin-bottom: 2px; }
@@ -480,12 +478,12 @@ body {
   font-size: 6mm;
   display: inline-block;
   margin: 5px 0 0 0;
-  color: #0f278d; }
+  color: #1f669b; }
 
 .notes h2 {
   font-size: 4mm;
   font-weight: bold;
-  color: #081448;
+  color: #123c5b;
   margin: 3px 0 0 0; }
 
 .notes p {
@@ -493,7 +491,7 @@ body {
   font-size: 3.2mm;
   font-weight: normal;
   line-height: 4.2mm;
-  color: rgba(0, 0, 0, 0.8); }
+  color: rgba(0, 0, 0, 0.9); }
   .notes p sub {
     position: relative;
     top: .3em;
@@ -505,7 +503,7 @@ body {
   font-size: 3.2mm;
   font-weight: normal;
   line-height: 4.2mm;
-  color: rgba(0, 0, 0, 0.8); }
+  color: rgba(0, 0, 0, 0.9); }
   .notes ul#content_list li:not(:last-child) {
     margin-bottom: 4px; }
 
@@ -527,7 +525,7 @@ body {
     font-size: 3.2mm;
     line-height: 4.5mm;
     margin-bottom: .0cm;
-    color: rgba(0, 0, 0, 0.8); }
+    color: rgba(0, 0, 0, 0.9); }
   .minor > li {
     margin-left: .5mm; }
 
@@ -536,13 +534,15 @@ body {
   width: 10.2cm;
   vertical-align: top; }
   .major .nested h2 {
-    margin-top: 5px; }
+    margin-top: 10px; }
   .major aside {
     font-size: 3.2mm;
     display: inline-block;
     height: 3.2mm;
     margin-top: 3mm;
-    color: rgba(0, 0, 0, 0.8); }
+    color: rgba(0, 0, 0, 0.9); }
+  .major .projects-section {
+    margin-top: 20px; }
 
 .info {
   font-size: 3.2mm;
@@ -574,7 +574,7 @@ body {
   bottom: 1.4cm;
   display: inline-block;
   text-align: right;
-  color: rgba(0, 0, 0, 0.8); }
+  color: rgba(0, 0, 0, 0.9); }
 
 @page {
   margin: 0; }

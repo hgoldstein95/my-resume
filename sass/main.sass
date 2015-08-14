@@ -3,26 +3,20 @@
 
 // Fonts
 
-@import url('http://fonts.googleapis.com/css?family=Fira+Sans')
+@import url('http://fonts.googleapis.com/css?family=Fira+Sans|PT+Sans')
 
-$fnt_major: Fira Sans
+$fnt_major: PT Sans
 $fnt_minor: Fira Sans
-
 
 // Colors
 
 $color-1: #495859
-$color-2: rgb(16, 42, 150)
-$color-3: rgb(52, 56, 74)
-$color-4: rgba(0,0,0,0.8)
-
-// $color-1:  #D95B43
-// $color-2:  #C02942
-// $color-3:  #542437
+$color-2: rgb(33, 108, 163) //rgb(16, 42, 150)
+$color-3: rgba(0,0,0,0.9)
 
 $color-h1-light:  darken($color-2, 2%)
-$color-h1-dark:   $color-3
-$color-h1-stroke: $color-3
+$color-h1-dark:   darken($color-2, 18%)
+$color-h1-stroke: darken($color-2, 18%)
 $color-h2:        darken($color-2, 17%)
 $color-h3:        darken($color-2, 17%)
 $color-link:      $color-2
@@ -115,10 +109,8 @@ body
     display: inline-block
     height: $logoheight / 2
     color: $color-h1-dark
+    padding-right: 2px
     +afterunderline
-    em
-      font-style: normal
-      color: $color-h1-light
     &:after
       bottom: -$thinstroke / 2
   h2
@@ -130,7 +122,7 @@ body
   .addrs
     height: $logoheight / 2
     padding-top: 3mm
-    color: $color-4
+    color: $color-3
     h3
       font-size: 13px
       margin-bottom: 2px
@@ -170,7 +162,7 @@ body
     font-size: $body-text-size
     font-weight: normal
     line-height: $body-text-size + 1mm
-    color: $color-4
+    color: $color-3
     sub
       position: relative
       top: .3em
@@ -181,7 +173,7 @@ body
     font-size: $body-text-size
     font-weight: normal
     line-height: $body-text-size + 1mm
-    color: $color-4
+    color: $color-3
     li:not(:last-child)
       margin-bottom: 4px
   li
@@ -203,7 +195,7 @@ $margin-middle: 8mm
     font-size: $body-text-size
     line-height: 4.5mm
     margin-bottom: .0cm
-    color: $color-4
+    color: $color-3
   & > li
     margin-left: .5mm
 
@@ -212,13 +204,15 @@ $margin-middle: 8mm
   width: $contentwidth - $margin-middle - $minor-width
   vertical-align: top
   .nested h2
-      margin-top: 5px
+      margin-top: 10px
   aside
     font-size: $body-text-size
     display: inline-block
     height: $body-text-size
     margin-top: 3mm
-    color: $color-4
+    color: $color-3
+  .projects-section
+    margin-top: 20px
 
 .info
   font-size: $body-text-size
@@ -250,7 +244,7 @@ $margin-middle: 8mm
   bottom: ($paperheight - $contentheight) / 2
   display: inline-block
   text-align: right
-  color: $color-4
+  color: $color-3
 
 @page
   margin: 0
