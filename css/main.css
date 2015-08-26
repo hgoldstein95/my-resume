@@ -528,6 +528,8 @@ body {
     color: rgba(0, 0, 0, 0.9); }
   .minor > li {
     margin-left: .5mm; }
+  .minor hr {
+    margin: 2px 0; }
 
 .major {
   display: inline-block;
@@ -562,7 +564,7 @@ body {
 .info:not(.no-bg) li {
   border-top: 1px solid rgba(0, 0, 0, 0.3);
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-  background: #eee;
+  background: inherit;
   padding: 2px 5px; }
   .info:not(.no-bg) li:not(:last-child):after {
     margin: 0 0 0 2mm; }
