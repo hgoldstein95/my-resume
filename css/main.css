@@ -477,7 +477,7 @@ body {
 .notes h1 {
   font-size: 6mm;
   display: inline-block;
-  margin: 5px 0 0 0;
+  margin: 8px 0 0 0;
   color: #1f669b; }
 
 .notes h2 {
@@ -524,7 +524,6 @@ body {
   .minor > li:not(.nested) > ul > li {
     font-size: 3.2mm;
     line-height: 4.5mm;
-    margin-bottom: .0cm;
     color: rgba(0, 0, 0, 0.9); }
   .minor > li {
     margin-left: .5mm; }
