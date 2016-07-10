@@ -457,6 +457,8 @@ body {
     .pageheader .addrs h3 {
       font-size: 13px;
       margin-bottom: 2px; }
+    .pageheader .addrs .phone a {
+      color: inherit; }
   .pageheader .mailing {
     margin: 10px 5px 0 20px;
     float: right !important; }
@@ -543,8 +545,6 @@ body {
     height: 3.2mm;
     margin-top: 3mm;
     color: rgba(0, 0, 0, 0.9); }
-  .major .projects-section {
-    margin-top: 20px; }
 
 .info {
   font-size: 3.2mm;

@@ -11,7 +11,8 @@ html(lang='en')
         section
           h1 Harrison Goldstein
           section.addrs
-            address.phone (732).977.7316
+            address.phone 
+              a(href='tel:+1-732-977-7316') (732) 977-7316
             address.email
               a(href='mailto:hgoldstein95@gmail.com') hgoldstein95@gmail.com
             address.website
@@ -43,11 +44,11 @@ html(lang='en')
           ul
             li Java
             li Python
-            li OCaml
             li C#, .NET Framework, ASP.NET
             li C
-            li HTML5, CSS3, and Sass
-            li Javascript and jQuery
+            li HTML / CSS
+            li Javascript
+            li OCaml
             li: span.latex L <sup>A</sup>T<sub>E</sub>X
             li BASH and UNIX Systems
             li Object Oriented Programming
@@ -96,16 +97,28 @@ html(lang='en')
         li.nested
           h1 Work Experience
           ul
+            li 
+              h2 Software Engineering Intern
+              ul.info
+                li Summer 2016
+                li: a(href='http://www.sig.com') 
+                  | Susquehanna International Group, LLP
+              ul#content_list
+                li Worked with the Electronic Options Trading team to build
+                  | safety systems, designed to prevent erronious trading
+                  | situations.
+                li Built functional components extensively in C# and the .NET 
+                  | framework, and built visualizations with ASP.NET to examine
+                  | the operation of those components.
             li
               h2 Lead Developer
               ul.info
                 li Summer 2014, 2015
                 li: a(href='http://www.timanllc.com') Timan, LLC
               ul#content_list
-                li Designed systems to automate financial data acquisition and
-                  | manipulation, for more efficient company stock valuation.
-                li Developed a barebones Python platform, as well as a more
-                  | advanced Java system with a graphical user interface.
+                li Designed systems in Python and Java to automate financial 
+                  | data acquisition and manipulation, for more efficient
+                  | equity valuation.
             li
               h2 Chief Technology Officer
               ul.info
@@ -113,7 +126,7 @@ html(lang='en')
                 li Last Second Beach, LLC
               ul#content_list
                 li Oversaw the development of a mobile application built using
-                  a(href='https://angularjs.org/')  AngularJS
+                  a(href='https://angularjs.org/')  Angular
                   |  and
                   a(href='http://phonegap.com/')  Adobe Phonegap
                   | .
@@ -133,14 +146,9 @@ html(lang='en')
                 ul#content_list
                   li Partnered to design and build a glove that interpreted
                     | American Sign Language letters.
-                  li Designed and built sensor circuits for measuring features
-                    | of hand positions, including finger bend and finger
-                    | proximity.
-                  li Developed code in C that read data from a
-                    a(href='http://www.ti.com/ww/en/launchpad/launchpads-msp430.html')
-                      |  TI-MSP430 microcontroller
-                    | , and code in Python that interpreted those signals
-                    | based on mathematical models.
+                  li Designed and built sensors for measuring hand position.
+                  li Developed code in C and Python to process and interpret
+                    | signals.
             li
               h2 Party Game Web App: <em>Mafia</em>
               ul.info
@@ -150,7 +158,7 @@ html(lang='en')
                   | <em>Mafia</em>.
                 li The application is built on
                   a(href="http://www.meteor.com")  Meteor.js
-                  | , a node.js framework, and uses
+                  |  and uses
                   a(href='http://http://getbootstrap.com/')  Twitter Bootstrap
                   |  for user-interface style.
             li
@@ -161,11 +169,9 @@ html(lang='en')
                   |  harrisongoldste.in/nbody
               ul#content_list
                 li Partnered to create a Python simulation of the
-                  | "n-body problem", a common problem in physics that can
-                  | model <em>n</em> planets in gravitational orbit (among
-                  | other physical systems).
-                li Used the classical Runge-Kutta method to calculate planet
-                  | positions over time, and used
+                  | "n-body problem".
+                li Relies on the classical Runge-Kutta method of integration.
+                li Used
                   a(href='http://vpython.org/')  vPython
                   |  to generate a 3D graphical representation.
 
