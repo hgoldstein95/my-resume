@@ -31,7 +31,7 @@ $contentwidth: 18cm
 $contentheight: 25cm
 $pagemargin: 1cm
 $thinstroke: 0.5mm
-$header-size-mid: 6mm
+$header-size-mid: 5mm
 $header-size-small: 4mm
 $body-text-size: 3.2mm
 
@@ -178,6 +178,16 @@ body
     color: $color-3
     li:not(:last-child)
       margin-bottom: 4px
+  p#publication_list
+    margin-top: 8px
+    font-family: $fnt_minor
+    font-size: $body-text-size
+    font-weight: normal
+    line-height: $body-text-size + 1mm
+    color: $color-3
+    .paper-authors, .paper-conference
+      font-size: $body-text-size - 0.5mm
+      margin-left: 5mm
   li
     list-style-type: none
   .nested > ul
@@ -201,6 +211,10 @@ $margin-middle: 8mm
     margin-left: .5mm
   hr
     margin: 2px 0
+  h1
+    margin-bottom: 8px
+  ul
+    margin-bottom: 4px
 
 .major
   display: inline-block
