@@ -21,6 +21,9 @@
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^2.3.1",
     "gulp-jade": "^1.1.0",
-    "gulp-sass": "^2.0.4"
+    "gulp-sass": "^2.0.4",
+    "lodash.template": ">=4.5.0",
+    "constantinople": ">=3.1.1",
+    "clean-css": ">=4.1.11"
   }
 }
