@@ -4,7 +4,6 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-@import url("https://fonts.googleapis.com/css?family=Fira+Sans|Roboto");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -373,6 +372,18 @@ th {
   vertical-align: .15em;
   position: static; }
 
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Fira Sans Regular"), local("FiraSans-Regular"), url("../fonts/fira-sans-v10-latin-regular.woff2") format("woff2"), url("../fonts/fira-sans-v10-latin-regular.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto"), local("Roboto-Regular"), url("../fonts/roboto-v20-latin-regular.woff2") format("woff2"), url("../fonts/roboto-v20-latin-regular.woff") format("woff"); }
+
 * {
   box-sizing: border-box !important;
   margin: 0;
@@ -410,11 +421,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Roboto;
+  font-family: "Roboto";
   margin: 0; }
 
 body {
-  font-family: Fira Sans; }
+  font-family: "Fira Sans"; }
 
 .pageheader {
   font-size: 0;
@@ -490,7 +501,7 @@ body {
   margin: 3px 0 0 0; }
 
 .notes p {
-  font-family: Fira Sans;
+  font-family: "Fira Sans";
   font-size: 3.2mm;
   font-weight: normal;
   line-height: 4.2mm;
@@ -502,7 +513,7 @@ body {
     vertical-align: bottom; }
 
 .notes ul#content_list {
-  font-family: Fira Sans;
+  font-family: "Fira Sans";
   font-size: 3.2mm;
   font-weight: normal;
   line-height: 4.2mm;
@@ -512,7 +523,7 @@ body {
 
 .notes p#publication_list {
   margin-top: 8px;
-  font-family: Fira Sans;
+  font-family: "Fira Sans";
   font-size: 3.2mm;
   font-weight: normal;
   line-height: 4.2mm;

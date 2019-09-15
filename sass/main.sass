@@ -1,12 +1,20 @@
 @import 'normalize'
 @import 'latex'
 
-// Fonts
+@font-face
+  font-family: 'Fira Sans'
+  font-style: normal
+  font-weight: 400
+  src: local('Fira Sans Regular'), local('FiraSans-Regular'), url('../fonts/fira-sans-v10-latin-regular.woff2') format('woff2'), url('../fonts/fira-sans-v10-latin-regular.woff') format('woff')
 
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans|Roboto')
+@font-face
+  font-family: 'Roboto'
+  font-style: normal
+  font-weight: 400
+  src: local('Roboto'), local('Roboto-Regular'), url('../fonts/roboto-v20-latin-regular.woff2') format('woff2'), url('../fonts/roboto-v20-latin-regular.woff') format('woff')
 
-$fnt_major: Roboto
-$fnt_minor: Fira Sans
+$fnt_major: 'Roboto'
+$fnt_minor: 'Fira Sans'
 
 // Colors
 
