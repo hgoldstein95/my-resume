@@ -410,11 +410,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Roboto, Open Sans;
+  font-family: "Roboto", "Open Sans";
   margin: 0; }
 
 body {
-  font-family: Fira Sans; }
+  font-family: "Fira Sans"; }
 
 .pageheader {
   font-size: 0;
@@ -428,7 +428,7 @@ body {
     height: 25mm;
     margin-right: .5cm; }
   .pageheader h1 {
-    font-size: 9mm;
+    font-size: 10mm;
     display: inline-block;
     height: 12.5mm;
     color: #123957;
@@ -490,7 +490,7 @@ body {
   margin: 3px 0 0 0; }
 
 .notes p {
-  font-family: Fira Sans;
+  font-family: "Fira Sans";
   font-size: 3.2mm;
   font-weight: normal;
   line-height: 4.2mm;
@@ -502,7 +502,7 @@ body {
     vertical-align: bottom; }
 
 .notes ul#content_list {
-  font-family: Fira Sans;
+  font-family: "Fira Sans";
   font-size: 3.2mm;
   font-weight: normal;
   line-height: 4.2mm;
@@ -512,7 +512,7 @@ body {
 
 .notes p#publication_list {
   margin-top: 8px;
-  font-family: Fira Sans;
+  font-family: "Fira Sans";
   font-size: 3.2mm;
   font-weight: normal;
   line-height: 4.2mm;
