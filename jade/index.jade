@@ -14,12 +14,12 @@ html(lang='en')
             address.phone
               a(href='tel:+1-732-977-7316') (732) 977-7316
             address.email
-              a(href='mailto:hgoldstein95@gmail.com') hgoldstein95@gmail.com
+              a(href='mailto:hgo@seas.upenn.edu') hgo@seas.upenn.edu
             address.website
               a(href='https://harrisongoldste.in') harrisongoldste.in
             address.github
-              a(href='https://github.com/hgoldstein95/')
-                | GitHub:hgoldstein95
+              a(href='https://twitter.com/hgoldstein95/')
+                | @hgoldstein95
         section.mailing.addrs
           h3 MAILING ADDRESS
           address 4730 Pine St, Apt C1, Box 13
@@ -41,31 +41,23 @@ html(lang='en')
                 br
                 | M.Eng. in Computer Science (GPA 4.02)
         li
+          h1 Activities
+          ul
+            li POPL 2021 Social Chair
+            li ICFP 2020 AV Coordinator
+            li Editor of Penn's PLClub Blog
+        li
+          h1 Research Interests
+          ul
+            li Property-Based Testing
+            li Type Systems
+            li Domain Specific Languages
+        li 
           h1 Skills and Competencies
           ul
-            li Functional Programming
-            li Object Oriented Programming
-            li Formal Methods / Verification
-            li Web Development
-            li BASH and UNIX Systems
-            li Leadership / Public Speaking
-            li Technical Writing /
-              span.latex  L <sup>A</sup>T<sub>E</sub>X
-            li <br>
-            li: i Programming Languages Including:
-            li C, C#, C++, Coq, Haskell, Java, JavaScript,
-            li OCaml, Python, Rust, TypeScript
-        li
-          h1 Relevant Coursework
-          ul
-            li Compilers, with Practicum
-            li Programming Languages and Logics
-            li Algorithms
-            li Theory of Computation
-            li Operating Systems
-            li Artificial Intelligence
-            li Database Systems, with Practicum
-            li Entrepreneurial Management
+            li Research Writing and Communication
+            li Programming in all Major Paradigms
+            li Leadership and Public Speaking
         li.nested
           h1 Honors and Awards
           ul
@@ -84,9 +76,41 @@ html(lang='en')
               ul.info.no-bg
                 li Boy Scouts of America
       ul.major.notes
+        li.nested.projects-section
+          h1 Publications
+          p#publication_list
+            i.paper-title
+              | Do Judge a Test by its Cover: Combining Combinatorial and Property-Based Testing
+            br
+            span.paper-authors
+              | Harrison Goldstein, John Hughes, Leonidas Lampropoulos, Benjamin C. Pierce
+            br
+            span.paper-conference
+              | ESOP 2021
+            br
+            i.paper-title
+              | Programming Language Support for Natural Language Interaction
+            br
+            span.paper-authors
+              | Alex Renda, Harrison Goldstein, Sarah Bird, Chris Quirk,
+              | Adrian Sampson
+            br
+            span.paper-conference
+              | SysML 2018
         li.nested
           h1 Work Experience
           ul
+            li 
+              h2 Research Intern
+              ul.info
+                li Summer 2020
+                li: a(href='https://aws.amazon.com/identity/')
+                  | AWS Automated Reasoning Group
+              ul#content_list
+                li Expanded and formalized a model of AWS access policies that captured
+                  | the full complexity of the authorization system.
+                li Explored an embedding of the model into SMT, to be used in the Zelkova
+                  | tool.
             li
               h2 Software Engineer
               ul.info
@@ -105,25 +129,11 @@ html(lang='en')
                 li Summer 2016
                 li: a(href='https://www.sig.com')
                   | Susquehanna International Group, LLP
-              ul#content_list
-                li Worked to build safety systems, designed to prevent erronious
-                  | trading situations.
-                li Built functional components in C# and the .NET framework, and
-                  | built visualizations with ASP.NET.
             li
               h2 Chief Technology Officer
               ul.info
                 li Fall 2015, Spring 2016
                 li Last Second Beach, LLC
-              ul#content_list
-                li Oversaw the development of a mobile application built using
-                  a(href='https://angularjs.org/')  Angular
-                  |  and
-                  a(href='https://phonegap.com/')  Adobe Phonegap
-                  | .
-                li Worked closely with CEO, Khalid Ladha, and CRO, Zacharia
-                  | Demuth, to make decisions integral to the company's
-                  | operation.
         li.nested.projects-section
           h1 Projects
           ul
@@ -135,7 +145,6 @@ html(lang='en')
                 li Worked with Adrian Sampson and others at Cornell to design a
                   | new programming language, Opal.
                 li Opal provides novel abstractions for machine learning tasks.
-                li The language will eventually be released for open-source use.
             li
               h2 Tourist
               ul.info
@@ -147,20 +156,6 @@ html(lang='en')
                   li Collaborated with a colleague to develop Tourist, a new
                     | approach to code documentation. The project is open
                     | source and can be downloaded as an extension for VSCode.
-                  li Tourist is actively maintained and developed by my
-                    | colleague and myself.
-        li.nested.projects-section
-          h1 Publications
-          p#publication_list
-            i.paper-title
-              | Programming Language Support for Natural Language Interaction
-            br
-            span.paper-authors
-              | Alex Renda, Harrison Goldstein, Sarah Bird, Chris Quirk,
-              | Adrian Sampson
-            br
-            span.paper-conference
-              | SysML 2018
 
       section.footer References available upon request.
         br
