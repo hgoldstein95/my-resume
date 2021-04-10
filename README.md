@@ -1,3 +1,5 @@
+## NOTE: This version of my resume is depricated.
+
 # Resume for Harrison Goldstein
 
 ## Build
